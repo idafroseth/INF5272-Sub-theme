@@ -4270,13 +4270,20 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-width: 1px 0 0;
 }
 .navbar-brand {
-  float: left;
-  padding: 15px 15px;
-  font-size: 30px;
-  line-height: 20px;
-  height: 50px;
-  font-family: 'Megrim', cursive;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    padding: 15px 15px;
+    font-size: 30px;
+    line-height: 20px;
+    height: 50px;
+    font-family: 'Megrim', cursive;
+ // text-shadow: 1px 1px #fdfdfd;
 }
+
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
@@ -7491,4 +7498,33 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 }
 #navbar-administration.navbar-oriented .navbar-tray-vertical {
   width: 24rem;
+}
+
+.old-logo{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin-left: -120px;
+    margin-top: auto;
+}
+body{
+  background: #F6F6F6;
+}
+.material-logo{
+   position: absolute; 
+    width: 100%;
+    left: 0;
+    top: 0;
+    margin: auto;
+    margin-left: -110px;
+    padding: 15px 15px; 
+    font-size: 52px;
+    line-height: 20px;
+    height: 52px;
+}
+
+pre{
+  background: #FFFFFF;
 }

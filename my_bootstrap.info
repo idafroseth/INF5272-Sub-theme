@@ -26,6 +26,11 @@ regions[page_bottom]    = 'Page bottom'
 
 stylesheets[all][] = css/style.css
 
+;;;;;;;;;;;;;;;;
+; Navbar
+;;;;;;;;;;;;;;;;;
+settings[bootstrap_navbar_position] = 'fixed-top'
+settings[bootstrap_navbar_inverse] = 1
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Scripts

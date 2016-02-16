@@ -114,7 +114,19 @@
   </div>
 </header>
 
+
+      <div id="header_banner" class="jumbotron header-custom">
+         <div class="container">
+           <div class="row vertical-align ">
+		<?php print render($page['head_banner']); ?>
+              <h1> <?php print menu_get_active_title();?></h1>
+	     </div>
+        </div>
+     </div> 
+
 <div class="main-container <?php print $container_class; ?>">
+
+
 
   <header role="banner" id="page-header">
     <?php if (!empty($site_slogan)): ?>

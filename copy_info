@@ -9,7 +9,7 @@ base theme = bootstrap
 ;;;;;;;;;;;;;;;;;;;;;
 
 regions[navigation]     = 'Navigation'
-regions[top_bar]        = 'Top Bar'
+regions[header]         = 'Top Bar'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
 regions[content]        = 'Content'
@@ -18,19 +18,19 @@ regions[sidebar_second] = 'Secondary'
 regions[footer]         = 'Footer'
 regions[page_top]       = 'Page top'
 regions[page_bottom]    = 'Page bottom'
-regions[head_banner]	= 'Head banner'
+
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;;
-stylesheets[all][] = 'css/style.css'
-stylesheets[all][] = 'css/custom.css' 
+
+stylesheets[all][] = css/style.css
 
 ;;;;;;;;;;;;;;;;
 ; Navbar
 ;;;;;;;;;;;;;;;;;
 settings[bootstrap_navbar_position] = 'fixed-top'
-settings[bootstrap_navbar_inverse] = 0
+settings[bootstrap_navbar_inverse] = 1
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Scripts

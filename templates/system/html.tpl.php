@@ -62,7 +62,7 @@
   <?php print $head; ?>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Megrim' rel='stylesheet'>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
   <!-- HTML5 element support for IE6-8 -->
@@ -71,8 +71,8 @@
   <![endif]-->
   <?php print $scripts; ?>
 </head>
-<body<?php print $body_attributes; ?>>
-  <div id="skip-link">
+<body<?php print $body_attributes; ?> style="padding-top:0px">
+ <div id="skip-link">
     <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
   </div>
   <?php print $page_top; ?>

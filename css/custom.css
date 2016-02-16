@@ -1,0 +1,73 @@
+.full-page-font{
+        text-align:center;
+        padding:10%;
+}
+
+.header-custom{
+               	font-family: 'Megrim', cursive;
+                background: #297294; //#1E6C6C; //rgb(37,76,109);
+                color: rgb(237,237,237);
+}
+
+.jumbotron {
+        padding:70px 30px 70px 30px;
+        margin: 0px auto;
+}
+
+.navbar{
+ margin-bottom:0;
+}
+
+.logo{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin-left: -120px;
+    margin-top: auto;
+}
+
+
+
+.material-logo{
+   position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    margin: auto;
+    margin-left: -120px;
+    padding: 15px 15px;
+    font-size: 52px;
+    line-height: 20px;
+    height: 52px;
+}
+
+
+pre{
+  background: #FFFFFF;
+}
+
+.full-page{
+	height:100%;
+}
+
+.full-page-font{
+        text-align:center;
+        padding:10%;
+}
+
+
+
+a.fa{
+   text-align:center;
+   font-size: 18;
+}
+
+a.fa:before{
+   display: block;
+} 
+
+
+
+

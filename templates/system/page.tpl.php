@@ -114,14 +114,22 @@
   </div>
 </header>
 
-
-      <div id="header_banner" class="jumbotron header-custom">
+      <div id="head_banner logo_site" class="jumbotron header-custom   <?php if (!empty($page['logo_site'])): ?> print full-page <?php endif; ?>">
          <div class="container">
-           <div class="row vertical-align ">
-		<?php print render($page['head_banner']); ?>
-              <h1> <?php print menu_get_active_title();?></h1>
-	     </div>
-        </div>
+           <div class="row <?php if (!empty($page['logo_site'])): ?> print vertical-align <?php endif; ?> ">
+   <!--If banner is enabled, print the page title-->
+	         <?php if (!empty($page['head_banner'])): ?>
+		     <?php print render($page['head_banner']); ?>
+       		     <h1> <?php print menu_get_active_title();?></h1>
+		 <?php endif; ?>
+		<!--If logo content is defined, print it here-->
+                 <?php if (!empty($page['logo_site'])): ?>
+                     	<?php print render($page['logo_site']); ?>
+                 <?php endif; ?>
+
+
+	 </div>
+    	</div>
      </div> 
 
 <div class="main-container <?php print $container_class; ?>">

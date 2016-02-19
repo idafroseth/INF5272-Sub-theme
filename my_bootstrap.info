@@ -19,6 +19,7 @@ regions[footer]         = 'Footer'
 regions[page_top]       = 'Page top'
 regions[page_bottom]    = 'Page bottom'
 regions[head_banner]	= 'Head banner'
+regions[logo_site]    = 'Logo Site'
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Stylesheets

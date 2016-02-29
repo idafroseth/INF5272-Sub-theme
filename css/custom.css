@@ -1,40 +1,26 @@
-
 .header-custom{
-               	font-family: 'Megrim', cursive;
-                background: #297294; //#1E6C6C; //rgb(37,76,109);
-                color: rgb(237,237,237);
+//font-family: 'Ubuntu', sans-serif;
+//font-family: 'Roboto', sans-serif;
+//font-family: 'Playfair Display', serif;              
+    font-family: 'Megrim', cursive;
+    background: #297294; //#1E6C6C; //rgb(37,76,109);
+    color: rgb(237,237,237); 
+    background-image: url("http://c2.staticflickr.com/2/1510/25205107385_6b8af58f1d_o.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
 }
-
-.jumbotron {
-        padding:70px 30px 70px 30px;
-}
-
-
-.logo{
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 0;
-    text-align: center;
-    margin-left: -120px;
-    margin-top: auto;
-}
-
-
-
-.material-logo{
+/*.material-logo{
    position: absolute;
     width: 100%;
     left: 0;
     top: 0;
     margin: auto;
     margin-left: -120px;
-    padding: 15px 15px;
     font-size: 52px;
     line-height: 20px;
     height: 52px;
-}
-
+}*/
 
 pre{
   background: #FFFFFF;
@@ -45,7 +31,12 @@ pre{
 	text-align:center;   
 }
 .vertical-align{
- padding-top:15%;
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+  text-align:center;
 }
 
 a.fa{
@@ -72,37 +63,7 @@ a.fa:before{
    color:#000000;
 }
 
-
-
-
-.rating{
- direction: rtl;
- font-size: 30px;
+body{
+   font-family: 'Roboto', sans-serif;
 }
-
-.rating span.fa-star{
- font-family: FontAwesome;
- font-weight: normal; 
- font-style: normal;
- display: inline-block;
- direction: rtl;
-}
-
-.rating span.fa-star:hover {
-    cursor: pointer;
-}
-
-
-.rating span.fa-star:before {
-    content: "\f006";
-    padding-right: 5px;
-    color: #777777;
-}
-
-.rating span.fa-star:hover:before,
-.rating span.fa-star:hover ~ span.fa-star:before {
-    content: "\f005";
-    color: #e3cf7a;
-}
-
 

@@ -4270,15 +4270,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-width: 1px 0 0;
 }
 .navbar-brand {
-    position: absolute;
+   position: absolute;
     width: 100%;
     left: 0;
     top: 0;
     text-align: center;
 //    margin: auto;
     padding: 25px 15px; 
-    font-size: 30px;
-    line-height: 20px;
+   font-size: 30px;
+   line-height: 20px;
     height: 50px;
     font-family: 'Megrim', cursive;
  // text-shadow: 1px 1px #fdfdfd;

@@ -63,6 +63,11 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Megrim' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500' rel='stylesheet' type='text/css'>
+
+
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
   <!-- HTML5 element support for IE6-8 -->

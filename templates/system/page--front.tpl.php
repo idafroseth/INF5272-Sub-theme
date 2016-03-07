@@ -131,18 +131,37 @@
      </div> 
 
 <div class="main-container <?php print $container_class; ?>">
+   <div class="row">
+   </div>
+
+ <div class="row center extra-space-row-order">
+    <div class="col-xs-12" style="padding:30px;">
+          <div class="teaser-row" >
+            <div class="col-xs-12 col-sm-4">
+                <a class="teaser2" style="margin-bottom: 20px;" href="internettbestilling/">
+                  <i class="material-icons" style="font-size:100px;">search</i>
+                  <h3 class="text-teaser" style="text-transform: uppercase">Søk</h3>
+                  <!--<p>Søk blandt mer enn 7000 turer</p>-->
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <a class="teaser2" style="margin-bottom: 20px;"  href="reseptbestilling/">
+		  <i class="material-icons" style="font-size:100px;">share</i>
+  <h3 class="text-teaser" style="text-transform: uppercase">Del</h3>
+ 	       </a>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <a class="teaser2" style="margin-bottom: 20px;"  href="andrehenvendelser/">
+                  <i class="material-icons" style="font-size:100px;">add_circle</i>
+                  <h3 class="text-teaser" style="text-transform: uppercase">Egne turer</h3>
+                </a>
+            </div>
+         </div>
+    </div>
+  </div>
 
 
-
-  <header role="banner" id="page-header">
-    <?php if (!empty($site_slogan)): ?>
-      <p class="lead"><?php print $site_slogan; ?></p>
-    <?php endif; ?>
-
-    <?php print render($page['header']); ?>
-  </header> <!-- /#page-header -->
-
-  <div class="row">
+<!--  <div class="row">
 
     <?php if (!empty($page['sidebar_first'])): ?>
       <aside class="col-sm-3" role="complementary">
@@ -181,7 +200,9 @@
     <?php endif; ?>
 
   </div>
+-->
 </div>
+
 <?php if (!empty($page['full_width'])) :?>
      <div id="ukens-tur" class="jumbotron">	
 	<div class="container">
@@ -189,8 +210,9 @@
 	</div>
      </div>
 <?php endif;?>
-
-
+<div class="row center">
+ <H3 style="padding:150px;">Her kommer barometer på ant turer og brukere på nettstedet</H3>
+</div>
 
 <?php if (!empty($page['footer'])): ?>
   <footer class="container_fluid custom_foot"> <!-- <?php print $container_class; ?>--!>

@@ -3,51 +3,56 @@
 //font-family: 'Roboto', sans-serif;
 //font-family: 'Playfair Display', serif;              
     font-family: 'Megrim', cursive;
+
     background: #297294; //#1E6C6C; //rgb(37,76,109);
-    color: rgb(237,237,237); 
-    background-image: url("http://c2.staticflickr.com/2/1510/25205107385_6b8af58f1d_o.jpg");
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-attachment: fixed;
+    color: rgb(237,237,237);
+    background: url("http://c2.staticflickr.com/2/1510/25205107385_6b8af58f1d_o.jpg") no-repeat center center fixed;
+    background-size: cover;
+	 
 }
-/*.material-logo{
-   position: absolute;
-    width: 100%;
-    left: 0;
-    top: 0;
-    margin: auto;
-    margin-left: -120px;
-    font-size: 52px;
-    line-height: 20px;
-    height: 52px;
-}*/
+
+.main-container{
+   padding-top: 50px;
+}
+
+.full-page{
+	height:100vh;
+        text-align:center;
+}
+
+.center{
+   text-align:center;
+}
 
 pre{
   background: #FFFFFF;
 }
 
-.full-page{
-	height:100vh;
-	text-align:center;   
-}
 .vertical-align{
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
   min-height: 100vh; /* These two lines are counted as one :-)       */
-
   display: flex;
   align-items: center;
   text-align:center;
 }
 
 a.fa{
-   text-align:center;
-   font-size: 18;
+ //text-align:center;
+  // font-size: 30px;
+}
+
+.nav > li > a {
+  text-align:center;
+  padding: 30px 10px 10px;
 }
 
 a.fa:before{
-   display: block;
+ //  display: block;
 } 
 
+#navbar{
+   font-size:13px;
+}
 
 .text-easyPeasy{
    color:rgb(53,204,75);
@@ -64,6 +69,106 @@ a.fa:before{
 }
 
 body{
-   font-family: 'Roboto', sans-serif;
+//font-family: 'Open Sans', sans-serif;
+//font-family: 'Montserrat', sans-serif;
+//font-family: 'Playfair Display', serif;
+ //  font-family: 'Robto', sans-serif;
+//font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+/*p{
+ font-family: 'Playfair Display', serif;
+}*/
+
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: rgb(201,227,251);
+  background-color:transparent;
+  font-size:40px;
+  text-align:center;
+}
+
+.navbar-default .navbar-nav  a,
+.navbar-default .navbar-nav  a:hover,
+.navbar-default .navbar-nav  a:focus {
+  //color: #ed0101;
+  font-size:30px;
+  text-align:center;
+}
+.navbar-default .navbar-nav  a:hover{
+  font-size:40px;
+  color: rgb(201,227,251);
+  text-align:center;
+}
+
+
+#ukens-tur{
+ margin: 0 auto;
+ width: 100%;
+ //background: rgb(45,62,79);
+ background: rgb(201,227,251);
+// color: rgb(222,222,222);
+color:rgb(100,100,100);
+ text-align: center;
+}
+
+.views-field-title a{
+ font-size:58px;
+ color: rgb(254,254,254);
+}
+
+#block-views-ukenstur-blokk-block h2{
+   font-size: 40px;
+}
+
+.main-container{
+  padding-bottom: 80px;
+}
+
+
+.custom_foot{
+  background:rgb(201,227,251);
+  color: rgb(0,0,0);
+  margin:0px auto; 
+}
+
+address{
+	font-size:80%;
+	margin:0px;
+	color:#eeeee;
+}
+
+#ukens-bruker{
+   margin: 0 auto;
+   width: 100%;
+   background: rgb(45,62,79);
+   color: rgb(201,227,251);
+   text-align: center;
+}
+
+.black{
+  background:rgb(50,50,50);
+  color: rgb(150,150,150);
+}
+
+.black a{
+    color: rgb(150,150,150);
+}
+a:hover{ 
+   text-decoration:none;
+   color:rgb(150,150,150);
+}
+footer a:hover{
+    color: rgb(201,227,251);
+}
+
+
+
+.pad{
+  padding:40px;
 }
 

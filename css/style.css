@@ -2289,7 +2289,8 @@ fieldset[disabled] a.btn {
   background-color: #d4d4d4;
   border-color: #8c8c8c;
 }
-.btn-default:active,
+.btn-default:w
+active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   background-image: none;
@@ -4301,9 +4302,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   float: right;
   margin-right: 15px;
-  padding: 9px 10px;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  padding: 12px 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
@@ -4365,8 +4366,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 35px;
+    //padding-bottom: 12px;
   }
 }
 .navbar-form {
@@ -6790,7 +6791,7 @@ body.admin-menu .navbar-fixed-top {
   top: 29px;
 }
 body.admin-menu.navbar-is-fixed-top {
-  padding-top: 93px !important;
+  padding-top: 64px !important;
 }
 body div#admin-toolbar {
   z-index: 1600;
@@ -7471,7 +7472,7 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   top: 79px;
 }
 body.navbar-is-fixed-top.navbar-administration .navbar-fixed-top {
-  top: 39px;
+  top: 34px;
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {

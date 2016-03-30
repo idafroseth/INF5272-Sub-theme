@@ -117,11 +117,6 @@
       <div id="head_banner logo_site" <?php if (!empty($page['logo_site'])): ?><?php print 'class="jumbotron header-custom bg-light-60 full-page' ?><?php endif; ?> ">
          <div class="container  <?php if (!empty($page['logo_site'])): ?> <?php print 'vertical-align'?> <?php endif; ?> ">
            <div class="row col-xs-12 col-md-12">
-                  <!--If banner is enabled, print the page title-->
-	         <?php if (!empty($page['head_banner'])): ?>
-		     <?php print render($page['head_banner']); ?>
-       		     <h1> <?php print menu_get_active_title();?></h1>
-		 <?php endif; ?>
 		<!--If logo content is defined, print it here-->
                  <?php if (!empty($page['logo_site'])): ?>
                      	<?php print render($page['logo_site']); ?>
@@ -132,17 +127,14 @@
 
 <div class="main-container <?php print $container_class; ?>">
 
-
-
   <header role="banner" id="page-header">
     <?php if (!empty($site_slogan)): ?>
       <p class="lead"><?php print $site_slogan; ?></p>
     <?php endif; ?>
-
     <?php print render($page['header']); ?>
   </header> <!-- /#page-header -->
 
-  <div class="row">
+   <div class="row">
 
     <?php if (!empty($page['sidebar_first'])): ?>
       <aside class="col-sm-3" role="complementary">
@@ -150,7 +142,7 @@
       </aside>  <!-- /#sidebar-first -->
     <?php endif; ?>
 
-    <section<?php print $content_column_class; ?>>
+    <section><!--  <?php print $content_column_class; ?>>-->
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
       <?php endif; ?>
